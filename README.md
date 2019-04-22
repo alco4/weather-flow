@@ -30,3 +30,9 @@
 3. production build:
  * `npm run-script build`
 
+## To Do
+
+Seguir trabajando en los test unitarios y de integración, hasta ahora el proyecto cuenta con un entorno de testing configurado utilizando jest y enzyme que realizan pruebas sobre partes del renderizado de los componentes, faltaría aplicarlo a los casos de fetch con algun modulo de mockeo para tales fines.
+
+comando de testeo:
+ * `npm test`
