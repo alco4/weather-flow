@@ -1,8 +1,8 @@
 import React from 'react';
 
-const WeatherForm = ({ countries, cities, getCityWeather, getCities }) => (
+const WeatherForm = ({getCityWeather}) => (
     <div className="card card-body">
-        <form >
+        <form>
             <div className="form-group">
                 <h3 className="title">city selector</h3>
                 <select name="city" className="form-control" onChange={getCityWeather} autoFocus>
